@@ -26,7 +26,7 @@ public class ChessMatch {
         return mat;
     }
 
-    public ChessPiece performChessMovie(ChessPosition sourcePosition, ChessPosition targetPosition) {
+    public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
         Position source = sourcePosition.toPosition();
         Position target = targetPosition.toPosition();
         validateSourcePosition(source);
